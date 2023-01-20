@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 1000px;
+    height: 800px;
+    margin: 10px auto 0;
+
+    background-color: red;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    background-image: linear-gradient(to right,blue,red, yellow);
+    filter: blur(5px);
+}
+.box  {
+    color: black;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
